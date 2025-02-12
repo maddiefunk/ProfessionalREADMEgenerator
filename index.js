@@ -1,11 +1,13 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
-import colors from 'colors';
 import fs from 'fs';
+
+
 
 // TODO: Create an array of questions for user input
 // what the app is for, how to use app, how to install app, how to report issues and how to make contributions&mdash
-const questions = [ {
+const questions = [ 
+{
     type: 'input',
     name: 'title',
     message: 'What is the title of your project?',
@@ -58,7 +60,20 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        const READMEContent = `
+        const READMEContent = generateMarkdown(answers);
+        writeToFile('README.md', READMEContent);
+     })
+     .catch((error) => {
+     });  
+    }
+
+
+// Function call to initialize app
+
+init();
+
+function generateMarkdown(answers) {
+return `
 # ${answers.title}
 
 ## Description 
@@ -81,13 +96,6 @@ ${answers.contributions}
 
 ## Questions 
 ${answers.questions}
-`;
-writeToFile('README.md', READMEContent);
-    })
-    .catch((error) => {
-        console.error('Error', error);
-    });
-}
 
-// Function call to initialize app
-init();
+`;
+}
