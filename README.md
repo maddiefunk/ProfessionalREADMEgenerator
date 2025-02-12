@@ -18,8 +18,10 @@ To begin, you'll go through and enter the appropriate answers for a series of qu
 ## License 
 MIT
 ## Contributions
+Bootcampspot resources
 ## Test Information
-See usage information. 
+You can test it using the integrated terminal or refer to my instruction video!
+Instruction video: 
 ### Questions 
 If you have any questions, please feel free to contact me at: 
 Github: https://github.com/maddiefunk
