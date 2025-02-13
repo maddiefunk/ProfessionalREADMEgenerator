@@ -18,10 +18,10 @@ To begin, you'll go through and enter the appropriate answers for a series of qu
 ## License 
 MIT
 ## Contributions
-Bootcampspot resources
+Xpert Learning Assistant Chat+
 ## Test Information
 You can test it using the integrated terminal or refer to my instruction video!
-Instruction video: 
+Instruction video: https://drive.google.com/drive/folders/1aaPsps7AFT_AhB0xS7FtkZg-BJxBDJbY?usp=drive_link 
 ### Questions 
 If you have any questions, please feel free to contact me at: 
 Github: https://github.com/maddiefunk
