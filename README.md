@@ -1,7 +1,6 @@
 # Maddie's professional README generator!
 This is a professional and easy to use README generator that generates a README file for you through a terminal. 
 ## Table of Contents
-- [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
